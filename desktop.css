@@ -1,0 +1,76 @@
+
+
+.header{
+    width: calc(100%-80px) ;
+    position: relative;
+    padding: 0px 40px 0px 40px;
+}
+
+.burger {
+    display: none;
+}
+
+input[type="checkbox"]  {
+    display: none;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    background-image: url(source/logo.png);
+}
+
+.menu-item{
+    color: white;
+    font-size: 24px;
+    font-family: Tahoma;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.menu{
+    position: absolute;
+    right: 40px;
+    top: 50px;
+}
+
+.movie{
+    width: 600px;
+    border-radius: 30px;
+    transition: all 0.2s;
+    display: inline-block;
+    margin: 50px;
+}
+
+.movie:hover{
+    box-shadow: 0px 0px 55px white;
+    transform: scale(1.05);
+}
+
+.movie-pic{
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px 30px 0 0;
+}
+
+
+
+.movie-info{
+    background-color: #929292;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    font-family: Tahoma;
+    height: 100px;
+}
+
+.movie-text{
+    font-size: 28pt;
+    color: white;
+    padding-top: 15px;
+}
+
+.movie-date{
+    font-size: 16pt;
+    color: white;
+}
